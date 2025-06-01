@@ -5,6 +5,7 @@
 - [Overviews](#-overview)
 - [Enable Google APIs](#-enable-google-apis)
 - [Setup The Project](#-setup-the-project)
+- [Flowchart](#-flowchart)
 
 ###  Overview
 This is a simple tutorial project demonstrating how to integrate Google OAuth using the GCP API.  
@@ -68,3 +69,7 @@ GOOGLE_REDIRECT_URL=XXXXXXXXXXXXX
 ```main
 go run cmd/main.go
 ```
+
+### Flowchart
+
+<img src="https://github.com/Soyuen/picture/blob/main/driveOAuth.png?raw=true" alt="consent_screen" width="600"/>
