@@ -30,7 +30,9 @@ func main() {
 		port = "8000"
 	}
 
-	if err := r.Run("localhost:" + port); err != nil && err != http.ErrServerClosed {
+	err := r.Run("0.0.0.0:" + port)
+	if err != nil && err != http.ErrServerClosed {
 		log.Fatalf("failed to run server: %v", err)
 	}
+
 }
