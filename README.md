@@ -26,26 +26,31 @@ To use this demo, please go to the [Google Cloud API Dashboard](https://console.
 
 #### **Step 2**
 Click "create project"
+
 <img src="https://github.com/Soyuen/picture/blob/main/create_project.png?raw=true" alt="Create Project" width="500"/>
 
 #### **Step 3**
 Click **"Create Project"**.
 Enter your desired project name and click **"Create"**.
+
 <img src="https://github.com/Soyuen/picture/blob/main/new%20project.png?raw=true" alt="New Project" width="400"/>
 
 #### **Step 4**
 Click **“Credentials”** on the **left sidebar** under **APIs & Services**.
 Enter your desired project name and click **"Create"**.
+
 <img src="https://github.com/Soyuen/picture/blob/main/credentials.png?raw=true" alt="credentials" width="300"/>
 
 #### **Step 5**
 Then, click "Create Credentials" located near the top center of the page.
 Next, click "OAuth Client ID" to create a new OAuth client.
+
 <img src="https://github.com/Soyuen/picture/blob/main/create_credentials.png?raw=true" alt="create credentials" width="400"/>
 
 #### **Step 6**
 If you see a prompt to "Configure consent screen", please click on it to set up your OAuth consent details. And go back to the step 5.
 If you don’t see it, you can skip this step.
+
 <img src="https://github.com/Soyuen/picture/blob/main/consent_screen.png?raw=true" alt="consent_screen" width="600"/>
 
 #### **Step 7**
