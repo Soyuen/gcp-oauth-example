@@ -69,6 +69,10 @@ GOOGLE_REDIRECT_URL=XXXXXXXXXXXXX
 ```main
 go run cmd/main.go
 ```
+in the browser
+```browser
+localhost:8000/auth/gcp
+```
 
 ### Flowchart
 
