@@ -72,7 +72,7 @@ go run cmd/main.go
 or use Dockerfile
 ```docker
 docker build -t gcp-oauth-example .
-docker run -p 8000:8000 gcp-oauth-example
+docker run --env-file .env -p 8000:8000 gcp-oauth-example
 ```
 
 in the browser
