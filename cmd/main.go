@@ -21,7 +21,7 @@ func main() {
 		log.Fatal("Missing Google OAuth configuration")
 	}
 
-	// 初始化 Google OAuth config
+	// Initialize the Google OAuth configuration
 	gcpoauthexample.InitGoogleOAuthConfig(clientID, clientSecret, redirectURL)
 	r := gcpoauthexample.NewRouter()
 
